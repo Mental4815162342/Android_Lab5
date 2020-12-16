@@ -11,6 +11,7 @@
         android:theme="@style/Theme.EventHandling">
         <activity android:name=".ButtonClickActivity"></activity>
         <activity android:name=".MotionEventActivity"></activity>
+        <activity android:name=".CommonGesturesActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

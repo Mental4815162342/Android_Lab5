@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_MotionEvent:
                 Intent intent2 = new Intent(MainActivity.this, MotionEventActivity.class);
                 startActivity(intent2);
+            case R.id.action_CommonGestures:
+                Intent intent3 = new Intent(MainActivity.this, CommonGesturesActivity.class);
+                startActivity(intent3);
 
         }
         return super.onOptionsItemSelected(item);
