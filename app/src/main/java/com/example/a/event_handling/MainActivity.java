@@ -29,8 +29,11 @@ public class MainActivity extends AppCompatActivity {
         switch (id)
         {
             case R.id.action_ButtonClick:
-                Intent intent = new Intent(MainActivity.this, ButtonClickActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(MainActivity.this, ButtonClickActivity.class);
+                startActivity(intent1);
+            case R.id.action_MotionEvent:
+                Intent intent2 = new Intent(MainActivity.this, MotionEventActivity.class);
+                startActivity(intent2);
 
         }
         return super.onOptionsItemSelected(item);
